@@ -12,7 +12,7 @@ jobs:
           fetch-depth: 0
 
       - name: Security check 
-        uses: empathyco/tizona-action@pre-v27
+        uses: empathyco/tizona-action@pre-v1
         with:
           deptrack_enable: 'false'
           code_enable: 'false'
