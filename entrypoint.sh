@@ -6,3 +6,4 @@ echo "::set-output name=time::$time"
 
 echo "VARS"
 echo $GITHUB_EVENT_NAME
+echo $GITHUB_REF_TYPE
