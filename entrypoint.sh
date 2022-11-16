@@ -8,3 +8,4 @@ echo "VARS"
 echo $GITHUB_EVENT_NAME
 echo $GITHUB_REF_TYPE
 echo $GITHUB_REF
+echo $GITHUB_BASE_REF
