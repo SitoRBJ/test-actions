@@ -20,6 +20,8 @@ echo $GITHUB_HEAD_REF
 
 if [[ ${GITHUB_EVENT_NAME} == *"pull_request"* ]]; then
     echo "This is a PR"
+    TFSEC_DIRS=$(git diff ${GITHUB_BASE_REF} ${GITHUB_HEAD_REF} --dirstat | awk -F '% ' '{print $2}')
+    echo $TFSEC_DIRS
 else
     echo "This is not a PR"
 fi
