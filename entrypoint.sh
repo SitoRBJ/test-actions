@@ -16,3 +16,4 @@ echo "GITHUB_REF"
 echo $GITHUB_REF
 
 echo "HELLO"
+echo "BYE"
